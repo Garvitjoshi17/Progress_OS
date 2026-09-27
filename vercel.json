@@ -1,8 +1,0 @@
-{
-  "buildCommand": "pnpm --filter @workspace/progressos... run build",
-  "outputDirectory": "artifacts/progressos/dist/public",
-  "framework": "vite",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
